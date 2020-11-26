@@ -14,5 +14,5 @@ ENV PATH /opt/Anaconda3/bin:$PATH
 
 RUN pip install --upgrade pip
 
-WORKDIR /
+WORKDIR /git
 CMD ["jupyter","lab","--ip=0.0.0.0","--allow-root","--LabApp.token=''"]
